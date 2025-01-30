@@ -380,3 +380,52 @@ main .section[data-section-status='initialized'] {
 .hlx-preview-overlay .hlx-badge .hlx-popup * {
   font-size: 14px;
 }
+
+/*oreily css*/
+.section.tabs-container{
+  display: none;
+}
+
+.section.oreily-header-section{
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carousel-wrapper {
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .slide {
+    min-width: 100%;
+  }
+  
+  .carousel-image img {
+    width: 100%;
+  }
+  
+  .columns-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .columns-1-cols > div {
+    flex: 1;
+  }
+  
+  .columns-1-cols img {
+    width: 100%;
+    height: auto;
+  }
+}
