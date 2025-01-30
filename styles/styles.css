@@ -386,46 +386,16 @@ main .section[data-section-status='initialized'] {
   display: none;
 }
 
-.section.oreily-header-section{
-  .carousel-container {
-    display: flex;
-    flex-direction: column;
+.section.oreily-header-section.carousel-container.columns-container{
+  display: flex;
+
+  .carousel-wrapper{
+    width: 75%;
   }
-  
-  .carousel-wrapper {
-    position: relative;
+  .columns-wrapper{
+    width: 25%;
   }
-  
-  .carousel {
-    display: flex;
-    overflow-x: auto;
-  }
-  
-  .slide {
-    min-width: 100%;
-  }
-  
-  .carousel-image img {
-    width: 100%;
-  }
-  
-  .columns-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .columns-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  
-  .columns-1-cols > div {
-    flex: 1;
-  }
-  
-  .columns-1-cols img {
-    width: 100%;
-    height: auto;
+  .columns img{
+    border-radius: 0;
   }
 }
