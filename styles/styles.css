@@ -513,3 +513,6 @@ header nav .nav-sections {
   align-items: flex-end !important;
 }
 }
+.header.block{
+  background-color: #004a3a !important;
+}
